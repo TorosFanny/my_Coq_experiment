@@ -7,3 +7,8 @@ Proof.
  induction H.
  exact IHreFalse.
 Qed.
+(*
+Result for command Check reFalse_ind . :
+reFalse_ind
+     : forall P : Prop, (reFalse -> P -> P) -> reFalse -> P
+*)
