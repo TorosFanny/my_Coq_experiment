@@ -1,0 +1,40 @@
+DIGEST 45ca777c275a6893bd3290e2bcd23bc6
+Fnat_neq_bool
+prf 6:17 <> bool_has_two
+R21:27 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R40:41 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R36:39 Coq.Init.Datatypes <> bool ind
+R54:57 Coq.Init.Datatypes <> bool ind
+R67:70 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R62:64 Coq.Init.Logic <> :type_scope:x_'='_x not
+R60:61 nat_neq_bool <> b3 var
+R65:66 nat_neq_bool <> b1 var
+R73:75 Coq.Init.Logic <> :type_scope:x_'='_x not
+R71:72 nat_neq_bool <> b3 var
+R76:77 nat_neq_bool <> b2 var
+R96:99 Coq.Init.Datatypes <> true constr
+R96:99 Coq.Init.Datatypes <> true constr
+R111:115 Coq.Init.Datatypes <> false constr
+R111:115 Coq.Init.Datatypes <> false constr
+prf 198:212 <> not_nat_has_two
+R277:281 Coq.Init.Logic <> False ind
+R217:223 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R235:236 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R232:234 Coq.Init.Datatypes <> nat ind
+R249:251 Coq.Init.Datatypes <> nat ind
+R261:264 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R256:258 Coq.Init.Logic <> :type_scope:x_'='_x not
+R254:255 nat_neq_bool <> n3 var
+R259:260 nat_neq_bool <> n1 var
+R267:269 Coq.Init.Logic <> :type_scope:x_'='_x not
+R265:266 nat_neq_bool <> n3 var
+R270:271 nat_neq_bool <> n2 var
+prf 320:331 <> nat_neq_bool
+R338:341 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R335:337 Coq.Init.Datatypes <> nat ind
+R342:345 Coq.Init.Datatypes <> bool ind
+R364:366 Coq.Init.Logic <> not def
+R387:401 nat_neq_bool <> not_nat_has_two prfax
+R387:401 nat_neq_bool <> not_nat_has_two prfax
+R425:436 nat_neq_bool <> bool_has_two thm
+R425:436 nat_neq_bool <> bool_has_two thm
