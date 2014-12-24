@@ -1,5 +1,11 @@
 Require Export nat_neq_bool.
 
+Theorem rewrite_iff : forall (P Q : Prop), (P <-> Q) -> (P = Q).
+Proof.
+  intros.
+  (* rewrite <- H. --doesn't work, reports Error: Library Coq.Setoids.Setoid has to be required first.*)
+Abort.
+
 Definition map : forall (X Y : Type) (M : X -> Y) (f : X -> X), Y -> Y.
 Proof.
 (*It looks so easy, but actually I cannot prove it*)
